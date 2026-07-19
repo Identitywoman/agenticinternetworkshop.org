@@ -60,9 +60,6 @@ export default function WhosComingPage() {
           <div className="container">
             <div className="section-header">
               <h1>Who&apos;s Coming — AIW #{event.eventNumber}</h1>
-              <p className="description">
-                Organizations and companies registered for AIW #{event.eventNumber} ({event.date}).
-              </p>
             </div>
 
             <div className="whos-coming-content">
@@ -124,6 +121,7 @@ export default function WhosComingPage() {
                     If you are working on agentic AI protocols, identity infrastructure, or related technologies,
                     we&apos;d love to have you join us. Register now to be part of this collaborative workshop.
                   </div>
+
                 </>
               )}
             </div>
